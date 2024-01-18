@@ -1,0 +1,105 @@
+@media (max-width: 1200px) {
+    .col-4 {
+        width: var(--col-6);
+    }
+    .card {
+        width: 350px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (max-width: 992px) {
+    .header__title {
+        font-size: 60px;
+    }
+    .footer__link {
+        margin-top: 5px;
+        margin-bottom: 5px;
+        display: inline-block;
+    }
+    .menu__list {
+        justify-content: center;
+    }
+    .menu__link {
+        margin: 0 25px;
+    }
+}
+@media (max-width: 768px) {
+    .nav {
+        padding-top: 20px;
+    }
+    .nav .container {
+        flex-direction: column;
+    }
+    .nav__link {
+        height: 60px;
+        margin: 15px 0;
+    }
+    .header__title {
+        font-size: 45px;
+    }
+    .header__content {
+        padding-bottom: 20px;
+    }
+    .header__text {
+        margin: 30px 0;
+    }
+    .col-4 {
+        width: var(--col-12);
+    }
+    .menu__link {
+        margin: 5px 25px;
+        display: inline-block;
+    }
+    .info__text {
+        text-align: justify;
+    }
+}
+@media (max-width: 576px) {
+    .nav__link {
+        width: auto;
+        padding: 0 5px;
+        font-size: 16px;
+    }
+    .nav__span {
+        width: 20px;
+        height: 20px;
+    }
+    .header__price {
+        padding: 15px 60px;
+        font-size: 50px;
+    }
+    .card {
+        width: 290px;
+    }
+    .card__link {
+        width: 290px;
+        height: 290px;
+    }
+    .info__text {
+        text-align: left;
+    }
+    .section-title {
+        font-size: 30px;
+    }
+    .info__text {
+        font-size: 16px;
+    }
+    .branch__map {
+        height: 350px;
+    }
+    .footer__contacts {
+        flex-direction: column;
+    }
+    .phone {
+        margin-top: 15px;
+    }
+    .footer__link {
+        margin: 5px 0;
+        min-width: 110px;
+    }
+    .footer__text {
+        line-height: 1.5;
+    }
+}
